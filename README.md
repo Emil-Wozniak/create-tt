@@ -1,40 +1,40 @@
 
 
-#CREATE-REACT-TT
+# CREATE-REACT-TT
 
-The**create-react-tt**isacreate-react-appoverlayforareactapplicationbasedontypescriptandtailwind.
+The **create-react-tt** is a create-react-app overlay for a react application based on typescript and tailwind.
 
-Scriptexecutescreate,adddependenciesandbuildreactappwithallrequiredfilesforapplicationincludingTypescripttypesandTailwindcss.
+Script executes create, add dependencies and build react app with all required files for application including Typescript types and Tailwind  css.
 
-#Requiredments
+# Requiredments
 
--Yarn
--NPM
--create-react
+ - Yarn
+ - NPM
+ - create-react
 
-##Howtousescript
+## How to use script
 
-Allyouneedisgotoyour*dev*directoryandexecutescriptusingbashshell.
-forexample:
+All you need is go to your *dev* directory and execute script using bash shell .
+for example:
+    
+    cd ~/dev/react/
+    bash ~/dev/bin/create-reat-tt/create-react-tt.sh <app-name>
+    cd <app-name>
+    
+   I recommend use aliases:
 
-cd~/dev/react/
-bash~/dev/bin/create-reat-tt/create-react-tt.sh<app-name>
-cd<app-name>
+    alias create-rtt="bash ~/dev/bin/create-reat-tt/create-react-tt.sh"
+    cd ~/dev/react/
+    create-rtt <app-name>
+    cd <app-name>
 
-Irecommendusealiases:
+Make sure you use correct right path. I my computer I have *dev* directory in */home/(user)/* directory and store script in *dev/bin/create-reat-tt*.
 
-aliascreate-rtt="bash~/dev/bin/create-reat-tt/create-react-tt.sh"
-cd~/dev/react/
-create-rtt<app-name>
-cd<app-name>
+## Ho script works
 
-Makesureyouusecorrectrightpath.ImycomputerIhave*dev*directoryin*/home/(user)/*directoryandstorescriptin*dev/bin/create-reat-tt*.
+Script recognize both your work directory and where you store it, so you don't have to worry about the paths. 
 
-##Hoscriptworks
-
-Scriptrecognizebothyourworkdirectoryandwhereyoustoreit,soyoudon'thavetoworryaboutthepaths.
-
-Ifyouforgettoputapp-nameyouwillreceiveamassegelikethis:
-<div>&nbsp;&nbsp;&nbsp;&nbsp;<fontcolor="red">[error]</font>&nbsp;&nbsp;&nbsp;&nbsp;requirednumberofargsequals1</div>
+If you forget to put app-name you will receive a massege like this:
+<div>&nbsp;&nbsp;&nbsp;&nbsp;<font color="red"> [error]</font>&nbsp;&nbsp;&nbsp;&nbsp;   required number of args equals 1</div>
 
 
