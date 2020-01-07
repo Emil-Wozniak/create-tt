@@ -1,40 +1,40 @@
 
 
-# CREATE-REACT-TT
+#CREATE-REACT-TT
 
-The **create-react-tt** is a create-react-app overlay for a react application based on typescript and tailwind.
+The**create-react-tt**isacreate-react-appoverlayforareactapplicationbasedontypescriptandtailwind.
 
-Script executes create, add dependencies and build react app with all required files for application including Typescript types and Tailwind  css.
+Scriptexecutescreate,adddependenciesandbuildreactappwithallrequiredfilesforapplicationincludingTypescripttypesandTailwindcss.
 
-# Requiredments
+#Requiredments
 
- - Yarn
-  - NPM
-   - create-react
+-Yarn
+-NPM
+-create-react
 
-   ## How to use script
+##Howtousescript
 
-   All you need is go to your *dev* directory and execute script using bash shell .
-   for example:
+Allyouneedisgotoyour*dev*directoryandexecutescriptusingbashshell.
+forexample:
 
-           cd ~/dev/react/
-               bash ~/dev/bin/create-reat-tt/create-react-tt.sh <app-name>
-                   cd <app-name>
+cd~/dev/react/
+bash~/dev/bin/create-reat-tt/create-react-tt.sh<app-name>
+cd<app-name>
 
-                          I recommend use aliases:
+Irecommendusealiases:
 
-                              alias create-rtt="bash ~/dev/bin/create-reat-tt/create-react-tt.sh"
-                                  cd ~/dev/react/
-                                      create-rtt <app-name>
-                                          cd <app-name>
+aliascreate-rtt="bash~/dev/bin/create-reat-tt/create-react-tt.sh"
+cd~/dev/react/
+create-rtt<app-name>
+cd<app-name>
 
-                                          Make sure you use correct right path. I my computer I have *dev* directory in */home/(user)/* directory and store script in *dev/bin/create-reat-tt*.
+Makesureyouusecorrectrightpath.ImycomputerIhave*dev*directoryin*/home/(user)/*directoryandstorescriptin*dev/bin/create-reat-tt*.
 
-                                          ## Ho script works
+##Hoscriptworks
 
-                                          Script recognize both your work directory and where you store it, so you don't have to worry about the paths. 
+Scriptrecognizebothyourworkdirectoryandwhereyoustoreit,soyoudon'thavetoworryaboutthepaths.
 
-                                          If you forget to put app-name you will receive a massege like this:
-                                          <div>&nbsp;&nbsp;&nbsp;&nbsp;<font color="red"> [error]</font>&nbsp;&nbsp;&nbsp;&nbsp;   required number of args equals 1</div>
+Ifyouforgettoputapp-nameyouwillreceiveamassegelikethis:
+<div>&nbsp;&nbsp;&nbsp;&nbsp;<fontcolor="red">[error]</font>&nbsp;&nbsp;&nbsp;&nbsp;requirednumberofargsequals1</div>
 
-                                          
+
